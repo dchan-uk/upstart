@@ -4,6 +4,11 @@
 var upstart = module.exports = {};
 
 /**
+ * Import initctl helper.
+ */
+upstart.initctl = require("./lib/common").initctl;
+
+/**
  * Import subsets.
  */
 ["./lib/config", "./lib/job", "./lib/event", "./lib/other"]
@@ -11,8 +16,3 @@ var upstart = module.exports = {};
   .forEach(function(subset) {
     subset(this);
   }, upstart);
-
-/**
- * Import initctl helper.
- */
-upstart.initctl = require("./lib/common").initctl;
