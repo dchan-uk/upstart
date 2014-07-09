@@ -20,9 +20,34 @@
     "service",
     "daemon"
   ],
-  "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "author": {
+    "name": "Jan Buschtöns",
+    "email": "buschtoens@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/silvinci/upstart/issues"
-  }
+  },
+  "gitHead": "7632e64f722c5fe15f04d6988728ece9e1a9c2b0",
+  "homepage": "https://github.com/silvinci/upstart",
+  "_id": "upstart@0.0.1",
+  "_shasum": "3def67833dcacc859e9dd9bff6e94e1c072546b6",
+  "_from": "upstart@",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "silvinci",
+    "email": "buschtoens@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "silvinci",
+      "email": "buschtoens@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "3def67833dcacc859e9dd9bff6e94e1c072546b6",
+    "tarball": "http://registry.npmjs.org/upstart/-/upstart-0.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/upstart/-/upstart-0.0.1.tgz"
 }

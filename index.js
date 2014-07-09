@@ -4,14 +4,14 @@
 var upstart = module.exports = {};
 
 /**
- * Import initctl helper.
+ * Import config.
  */
-upstart.initctl = require("./lib/common").initctl;
+upstart.config = require("./lib/config");
 
 /**
  * Import subsets.
  */
-["./lib/config", "./lib/job", "./lib/event", "./lib/other"]
+["./lib/common", "./lib/job", "./lib/event", "./lib/other"]
   .map(require)
   .forEach(function(subset) {
     subset(this);
